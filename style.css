@@ -1,0 +1,145 @@
+body {
+    background-image: linear-gradient(rgb(31, 31, 31), rgb(73, 73, 73));
+}
+
+h1 {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.edu-p {
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    text-shadow: 2px 2px rgb(56, 122, 167);
+}
+
+.edu-pdark {
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    color: black;
+}
+
+.edu {
+    background-image: linear-gradient(rgb(75, 156, 211), rgb(156, 203, 235));
+    color: black;
+}
+
+.edutext {
+    background-color: rgb(56, 122, 167);
+}
+
+.ach {
+    background-image: linear-gradient(gold, rgb(202, 172, 0));
+    color: black
+}
+
+.achh1 {
+    background-color: goldenrod;
+    text-decoration: underline;
+}
+
+.qual {
+    background-image: linear-gradient(rgb(178, 34, 34), rgb(212, 41, 41));
+    color: white;
+    text-align: center;
+}
+
+.cert {
+    display: block;
+    margin: auto;
+    height: 10rem;
+    width: auto;
+}
+
+.certlink {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: contents; /* Add this */
+}
+
+.certlink:focus,
+.certlink:hover {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.cert {
+    display: block; /* optional, or inline-block if needed */
+}
+
+.qualh1 {
+    background-color: rgb(122, 23, 23);
+}
+
+.qualh2 {
+    color: white;
+}
+
+/* .qualp {
+    text-align: center;
+} */
+
+.picture {
+    display: block;
+    margin: auto;
+    height: 30rem;
+    width: auto;
+    border-color: rgb(95, 95, 95);
+    border-style: solid;
+}
+
+.edupic {
+    display: block;
+    margin: auto;
+    height: 30rem;
+    width: auto;
+}
+
+a:visited {
+    color: rgb(178, 46, 255)
+}
+
+a:link {
+    color: rgb(0, 119, 255)
+}
+
+a {
+    font-size: large;
+    box-shadow: inset 0 0 0 0 #6854d6;
+    color: #6854d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    font-size: larger;
+    box-shadow: inset 100px 0 0 0 #6854d6;
+    color: white;
+}
+
+.special {
+    color: goldenrod;
+}
