@@ -1,3 +1,35 @@
-body {
-    background-image: linear-gradient(darkred, red, rgb(255, 102, 0), orange, yellow);
+body{
+    background-color: black;
+}
+
+.hobby {
+    /* background-image: linear-gradient(darkred, red); */
+    color:red;
+    border-style: solid;
+    /* border-radius: 5rem; */
+    border-width: 0.2rem;
+    border-color: red;
+}
+
+.hobbyheadlink {
+    background-color: grey;
+}
+
+.gaming {
+    font-family: sans-serif;
+    color: rgb(60, 255, 0);
+    border-color: rgb(60, 255, 0);
+    border-style: solid;
+    border-width: 0.2rem;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.music {
+    border-style: groove;
+    border-color: rgb(0, 247, 255);
+    color:rgb(0, 247, 255);
+    border-width: 0.2rem;
 }
